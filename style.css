@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.box {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(23, 53, 53);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+.top i {
+    color: orange;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    background-color: darkslategray;
+    border-radius: 50%;
+}
+.text h3 {
+    font-weight: 500;
+}
+.text p {
+    font-size: 13px;
+    font-weight: 200;
+}
+.numbers {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.numbers h5 {
+    width: 20px;
+    height: fit-content;
+    padding: 10px;
+    background-color: rgb(44, 68, 68);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    font-weight: 200;
+}
+.numbers h5:hover {
+    cursor: pointer;
+    background-color: darkslategray;
+}
+button {
+    border: none;
+    width: 100%;
+    color: white;
+    background-color: orange;
+    padding: 8px 0;
+    border-radius: 20px;
+}
+button:hover {
+    cursor: pointer;
+}
